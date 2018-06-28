@@ -28,7 +28,7 @@ public class DemoClient {
 	public static void main(String[] args) {
 		
 //		String serviceUrl = "http://localhost:8084/catalog/financialEntities?WSDL";// 192.168.135.28 ---- 10.5.14.39
-		String serviceUrl = "https://******/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort?wsdl";// 192.168.135.28 ---- 10.5.14.39
+		String serviceUrl = "https://192.168.135.28:442/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort?wsdl";// 192.168.135.28 ---- 10.5.14.39
 		// String serviceUrl =
 		// "https://1/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort?WSDL";//
 		
