@@ -26,12 +26,12 @@ public class DemoClient {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// https://192.168.135.28:444/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort
+		
 //		String serviceUrl = "http://localhost:8084/catalog/financialEntities?WSDL";// 192.168.135.28 ---- 10.5.14.39
-		String serviceUrl = "https://192.168.135.28:442/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort?wsdl";// 192.168.135.28 ---- 10.5.14.39
+		String serviceUrl = "https://******/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort?wsdl";// 192.168.135.28 ---- 10.5.14.39
 		// String serviceUrl =
-		// "https://192.168.135.28:444/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort?WSDL";//192.168.135.28
-		// ---- 10.5.14.39
+		// "https://1/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort?WSDL";//
+		
 		JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
 		factory.setServiceClass(FinancialEntitiesInq.class);
 		factory.setAddress(serviceUrl);
@@ -66,6 +66,6 @@ public class DemoClient {
 
 		}
 
-		// http://192.168.135.28:442/PJBA_Multiaplicacion-consultarDatosCatalogos/FinancialEntitiesInqPort
+		
 	}
 }
