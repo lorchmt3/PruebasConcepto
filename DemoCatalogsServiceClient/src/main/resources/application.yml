@@ -1,0 +1,9 @@
+client:
+  ticketagent:
+    address: http://localhost:8084/catalog/financialEntities?WSDL
+
+server:
+  port: 8086
+
+cxf:
+  path: /example/ws
